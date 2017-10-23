@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         button = (Button) findViewById(R.id.btninput);
         textView = (TextView) findViewById(R.id.tv01);
 
     }
-    public void onclicked(View v){
-        Toast.makeText(getApplicationContext(), "onclicked", Toast.LENGTH_SHORT).show();
-        textView.setText("onclicked");
+    public void click(View v){
+        Toast.makeText(getApplicationContext(), "click", Toast.LENGTH_SHORT).show();
+        textView.setText("click");
     }
 }
