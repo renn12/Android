@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         edNum2 = (EditText) findViewById(R.id.edNum2);
         textView = (TextView) findViewById(R.id.tvResult);
     }
+
     public void calc(View v){
         int result = 0;
         int num1 = Integer.parseInt(edNum1.getText().toString());
