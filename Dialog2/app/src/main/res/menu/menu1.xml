@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemRed"
+        android:title="red"></item>
+    <item
+        android:id="@+id/itemGreen"
+        android:title="green"></item>
+    <item
+        android:id="@+id/itemBlue"
+        android:title="blue"></item>
+    <item android:title="버튼 변경">
+        <menu>
+            <item android:title="45도 회전" android:id="@+id/subRotate"></item>
+            <item android:title="2배 확대" android:id="@+id/subSize"></item>
+        </menu>
+    </item>
+</menu>
