@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.it.salemanegement.MenuActivity">
+
+    <Button
+        android:id="@+id/btnMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="고객입력"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/btnProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상품입력"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/btnFinance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매출입력"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매출정보출력"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="422dp" />
+</LinearLayout>
